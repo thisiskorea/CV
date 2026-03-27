@@ -19,7 +19,8 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 ## Education
 
 - **B.S.** in Computer Science, Semyung University (2023 - Present)
-  - Data Intelligence Lab (Advisor: Prof. Suan Lee)
+- **Data Intelligence Lab**, Semyung University (2023 - Present)
+  - Advisor: Prof. Suan Lee
 
 ## News
 
