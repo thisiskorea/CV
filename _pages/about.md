@@ -71,6 +71,12 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 
 <div class="tl-entry grant">
 <span class="tl-badge tl-badge-grant">연구과제</span>
+<span class="tl-title">선형 LM Head 구조 기반 은닉 표현 섭동의 선형 투영을 이용한 학습 불필요 LLM 워터마킹 및 탐지</span>
+<span class="tl-sub">한국연구재단 우수연구-신진연구 (3년, 2026 ~)</span>
+</div>
+
+<div class="tl-entry grant">
+<span class="tl-badge tl-badge-grant">연구과제</span>
 <span class="tl-title">Text-to-SQL 솔루션 서비스 3차년 — (주)범익</span>
 <span class="tl-sub">중소기업기술정보진흥원 (2026.01 ~)</span>
 </div>
