@@ -1,49 +1,48 @@
 /* ───────── Publication Circular Gallery ───────── */
 (function () {
   var papers = [
-    { title: "Linear Separability and Feature Importance Analysis in LLM Representation Spaces",
+    { title: "Linear Separability and Feature Importance Analysis in Large Language Model Representation Spaces",
       authors: "<strong>Jaesung Kim</strong>, Suan Lee",
-      venue: "IEEE BigComp 2026", year: "2026", badge: "award", badgeText: "🏆 Best Paper Runner-Up",
-      url: "" },
+      venue: "IEEE BigComp 2026", year: "2026", url: "" },
     { title: "한국어 완곡 코팅을 통한 LLM 안전성 우회 분석",
       authors: "Sanghyun Gil, <strong>Jaesung Kim</strong>, Suan Lee",
-      venue: "대한전자공학회 학술대회", year: "2025", badge: "conf", badgeText: "Conference",
+      venue: "대한전자공학회 학술대회", year: "2025",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12551251" },
     { title: "LLM as a Search: 사용자 의도 분석을 통한 지능형 법률 문서 검색",
       authors: "<strong>Jaesung Kim</strong>, Suyun Ko, Jingeun Jung, Suan Lee",
-      venue: "정보과학회 컴퓨팅의 실제 논문지", year: "2025", badge: "journal", badgeText: "Journal",
+      venue: "정보과학회 컴퓨팅의 실제 논문지", year: "2025",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12417647" },
     { title: "Minimal Tuning, Maximum Gains: 선택적 레이어 파인튜닝 기반 효율적 학습 전략",
       authors: "<strong>Jaesung Kim</strong>, Suan Lee",
-      venue: "KCC 2025", year: "2025", badge: "conf", badgeText: "Conference",
+      venue: "KCC 2025", year: "2025",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12318726" },
     { title: "KO-SmallThinker: Reasoning 기반 소형 언어 모델을 활용한 초거대 언어 모델의 성능 한계 극복",
       authors: "<strong>Jaesung Kim</strong>, Suan Lee",
-      venue: "KCC 2025", year: "2025", badge: "conf", badgeText: "Conference",
+      venue: "KCC 2025", year: "2025",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12318727" },
     { title: "K-GovExam: 한국 공무원 시험 기반 LLM 평가용 데이터셋 구축 및 추론 언어 모델 분석",
       authors: "<strong>Jaesung Kim</strong>, Suan Lee",
-      venue: "KCC 2025", year: "2025", badge: "conf", badgeText: "Conference",
+      venue: "KCC 2025", year: "2025",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12318728" },
     { title: "Efficiently Lightweight Korean Language Model with Post-layer Pruning and Multi-stage Fine-tuning",
       authors: "<strong>Jaesung Kim</strong>, Suan Lee",
-      venue: "정보과학회 컴퓨팅의 실제 논문지", year: "2025", badge: "journal", badgeText: "Journal",
+      venue: "정보과학회 컴퓨팅의 실제 논문지", year: "2025",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12109171" },
     { title: "Depth-Up Scaling을 활용한 언어 모델 증강과 소규모 데이터 학습 성능 비교",
       authors: "<strong>Jaesung Kim</strong>, Suan Lee",
-      venue: "KSC 2024", year: "2024", badge: "conf", badgeText: "Conference",
+      venue: "KSC 2024", year: "2024",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12042288" },
     { title: "파인튜닝, RAG, 프롬프트 기반 언러닝 방법의 성능 비교 분석",
       authors: "<strong>Jaesung Kim</strong>, Suan Lee",
-      venue: "KCC 2024", year: "2024", badge: "conf", badgeText: "Conference",
+      venue: "KCC 2024", year: "2024",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862398" },
     { title: "법률 QA 데이터셋을 이용한 거대 언어 모델 학습",
       authors: "<strong>Jaesung Kim</strong>, Kangjun Kim, Suan Lee",
-      venue: "KCC 2024", year: "2024", badge: "conf", badgeText: "Conference",
+      venue: "KCC 2024", year: "2024",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862400" },
     { title: "서로 다른 언어 모델의 상징적 지식 증류를 이용한 경량화된 감정 분석 모델",
       authors: "<strong>Jaesung Kim</strong>, Suan Lee",
-      venue: "KSC 2023", year: "2023", badge: "conf", badgeText: "Conference",
+      venue: "KSC 2023", year: "2023",
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11705510" }
   ];
 
@@ -57,13 +56,12 @@
 
   var RADIUS, CARD_W, CARD_H, STEP, rot = 0;
   var cards = [];
-  var badgeClass = { award: 'badge-award', journal: 'badge-journal', conf: 'badge-conf' };
 
   function computeSizes() {
     var vw = stage.parentElement.offsetWidth;
-    RADIUS = Math.min(500, vw * 0.40);
-    CARD_W = RADIUS * 0.37;
-    CARD_H = RADIUS * 0.50;
+    RADIUS = Math.min(520, vw * 0.42);
+    CARD_W = Math.max(170, RADIUS * 0.44);
+    CARD_H = Math.max(220, RADIUS * 0.56);
     STEP = 360 / CNT;
   }
   computeSizes();
@@ -75,10 +73,11 @@
     el.style.width = CARD_W + 'px';
     el.style.height = CARD_H + 'px';
     el.innerHTML =
-      '<span class="card-badge ' + badgeClass[p.badge] + '">' + p.badgeText + '</span>' +
       '<p class="card-title">' + p.title + '</p>' +
+      '<div class="card-meta">' +
       '<p class="card-venue">' + p.venue + '</p>' +
-      '<p class="card-year">' + p.year + '</p>';
+      '<p class="card-year">' + p.year + '</p>' +
+      '</div>';
     var base = STEP * i;
     el.dataset.baseAngle = base;
     el.dataset.idx = i;
@@ -105,7 +104,6 @@
     })(i);
   }
 
-  /* 상단 카드 강조 */
   function highlight() {
     var norm = ((rot % 360) + 360) % 360;
     var best = 0, bestDiff = 360;
@@ -116,14 +114,15 @@
     });
     cards.forEach(function (el, idx) {
       var base = parseFloat(el.dataset.baseAngle);
-      var scale = idx === best ? 1.2 : 1;
+      var scale = idx === best ? 1.15 : 1;
       var z = idx === best ? 1000 : 100;
       el.style.transform =
         'translate(-50%, -50%) rotate(' + base + 'deg) translate(0, -' + RADIUS + 'px) scale(' + scale + ')';
       el.style.zIndex = z;
       el.style.boxShadow = idx === best
-        ? '0 8px 25px rgba(59,130,246,.35)'
-        : '0 4px 12px rgba(0,0,0,.08)';
+        ? '0 8px 24px rgba(0,0,0,.12)'
+        : '0 2px 8px rgba(0,0,0,.06)';
+      el.style.borderColor = idx === best ? '#ccc' : '#eee';
     });
     var p = papers[best];
     var content = document.getElementById('previewContent');
@@ -142,7 +141,6 @@
 
   highlight();
 
-  /* 드래그 / 터치 */
   var sx = 0, dragging = false;
   function start(x) { dragging = true; sx = x; }
   function move(x) {
