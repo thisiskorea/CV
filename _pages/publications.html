@@ -11,26 +11,101 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<style>
+.pub-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border-color, #e1e4e8);
+  gap: 20px;
+}
+.pub-content {
+  flex: 1;
+}
+.pub-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--link-color, #494e52);
+  margin: 0 0 6px 0;
+  line-height: 1.4;
+}
+.pub-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.pub-title a:hover {
+  color: var(--link-color-hover, #3b9cba);
+}
+.pub-authors {
+  font-size: 0.92em;
+  color: var(--text-color, #586069);
+  margin: 0 0 4px 0;
+}
+.pub-authors .me {
+  font-weight: 700;
+}
+.pub-venue {
+  font-size: 0.88em;
+  color: var(--link-color-hover, #3b9cba);
+  font-style: italic;
+  margin: 0 0 10px 0;
+}
+.pub-award {
+  display: inline-block;
+  font-size: 0.78em;
+  color: #d4a017;
+  font-weight: 600;
+  margin-left: 6px;
+}
+.pub-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pub-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: var(--text-color, #fff);
+  background: var(--masthead-background-color, #333);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.pub-links a:hover {
+  opacity: 0.8;
+}
+.pub-year-divider {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin: 30px 0 10px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--link-color-hover, #3b9cba);
+  color: var(--text-color, #494e52);
+}
+</style>
 
+{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "post", "post.date | date: '%Y'" %}
 
+{% for year in pubs_by_year %}
+<div class="pub-year-divider">{{ year.name }}</div>
 
+{% for post in year.items %}
+<div class="pub-item">
+  <div class="pub-content">
+    <p class="pub-title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></p>
+    <p class="pub-authors">{{ post.citation_authors | default: post.citation | split: ". (" | first | default: "" }}{% if post.award %}<span class="pub-award">🏆 {{ post.award }}</span>{% endif %}</p>
+    <p class="pub-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
+    <div class="pub-links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}"><i class="fa-solid fa-file-lines"></i> Paper</a>{% endif %}
+      {% if post.codeurl %}<a href="{{ post.codeurl }}"><i class="fa-brands fa-github"></i> Code</a>{% endif %}
+      {% if post.arxivurl %}<a href="{{ post.arxivurl }}"><i class="fa-solid fa-book-open"></i> arXiv</a>{% endif %}
+      {% if post.slidesurl %}<a href="{{ post.slidesurl }}"><i class="fa-solid fa-display"></i> Slides</a>{% endif %}
+    </div>
+  </div>
+</div>
+{% endfor %}
+{% endfor %}
