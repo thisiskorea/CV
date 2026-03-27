@@ -35,22 +35,23 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 
 <link rel="stylesheet" href="{{ '/assets/css/pub-gallery.css' | relative_url }}" />
 
-<div class="pub-gallery-section flex flex-col items-center justify-center relative">
+<div class="pub-gallery-section">
   <div id="preview" class="lp-preview hidden">
     <div id="previewContent" class="preview-info"></div>
   </div>
   <div class="lp-viewport">
     <div class="lp-stage" id="lpStage"></div>
   </div>
+  <div class="pub-gallery-hint">← drag to rotate →</div>
 </div>
 
-<div class="modal hidden" id="modal">
-  <div class="modal-content">
-    <span class="close" id="closeModal">&times;</span>
+<div class="pub-modal-overlay pub-hidden" id="pubModal">
+  <div class="pub-modal-box">
+    <button class="pub-modal-close" id="pubCloseModal">&times;</button>
     <h2 id="modalTitle"></h2>
     <p id="modalAuthors"></p>
     <p id="modalVenue"></p>
-    <a id="modalLink" href="#" target="_blank" class="modal-btn">View Paper →</a>
+    <a id="modalLink" href="#" target="_blank" class="pub-modal-btn">View Paper →</a>
   </div>
 </div>
 

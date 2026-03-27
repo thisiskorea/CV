@@ -1,6 +1,6 @@
 /* ───────── Publication Circular Gallery ───────── */
 (function () {
-  const papers = [
+  var papers = [
     { title: "Linear Separability and Feature Importance Analysis in LLM Representation Spaces",
       authors: "<strong>Jaesung Kim</strong>, Suan Lee",
       venue: "IEEE BigComp 2026", year: "2026", badge: "award", badgeText: "🏆 Best Paper Runner-Up",
@@ -47,18 +47,17 @@
       url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11705510" }
   ];
 
-  const CNT = papers.length;
-  const stage = document.getElementById('lpStage');
-  const preview = document.getElementById('preview');
-  const modal = document.getElementById('modal');
-  const closeBtn = document.getElementById('closeModal');
+  var CNT = papers.length;
+  var stage = document.getElementById('lpStage');
+  var preview = document.getElementById('preview');
+  var modal = document.getElementById('pubModal');
+  var closeBtn = document.getElementById('pubCloseModal');
 
   if (!stage) return;
 
-  let RADIUS, CARD_W, CARD_H, STEP, rot = 0;
-  const cards = [];
-
-  const badgeClass = { award: 'badge-award', journal: 'badge-journal', conf: 'badge-conf' };
+  var RADIUS, CARD_W, CARD_H, STEP, rot = 0;
+  var cards = [];
+  var badgeClass = { award: 'badge-award', journal: 'badge-journal', conf: 'badge-conf' };
 
   function computeSizes() {
     var vw = stage.parentElement.offsetWidth;
@@ -69,7 +68,6 @@
   }
   computeSizes();
 
-  // Build cards
   for (var i = 0; i < CNT; i++) {
     var p = papers[i];
     var el = document.createElement('div');
@@ -102,7 +100,7 @@
         } else {
           link.style.display = 'none';
         }
-        modal.classList.remove('hidden');
+        modal.classList.remove('pub-hidden');
       });
     })(i);
   }
@@ -124,10 +122,9 @@
         'translate(-50%, -50%) rotate(' + base + 'deg) translate(0, -' + RADIUS + 'px) scale(' + scale + ')';
       el.style.zIndex = z;
       el.style.boxShadow = idx === best
-        ? '0 8px 25px rgba(255,255,255,.6)'
-        : '0 6px 20px rgba(0,0,0,.3)';
+        ? '0 8px 25px rgba(59,130,246,.35)'
+        : '0 4px 12px rgba(0,0,0,.08)';
     });
-    // Update preview
     var p = papers[best];
     var content = document.getElementById('previewContent');
     content.innerHTML =
@@ -139,8 +136,7 @@
 
   function rotate(dir) {
     rot += dir * STEP;
-    stage.style.transform =
-      'translate(-50%, -50%) rotate(' + rot + 'deg)';
+    stage.style.transform = 'translate(-50%, -50%) rotate(' + rot + 'deg)';
     highlight();
   }
 
@@ -166,7 +162,6 @@
   stage.parentElement.addEventListener('touchmove', function (e) { move(e.touches[0].clientX); }, { passive: true });
   stage.parentElement.addEventListener('touchend', end);
 
-  // Resize
   window.addEventListener('resize', function () {
     computeSizes();
     cards.forEach(function (el) {
@@ -180,9 +175,8 @@
     highlight();
   });
 
-  // Modal close
-  closeBtn.onclick = function () { modal.classList.add('hidden'); };
+  closeBtn.onclick = function () { modal.classList.add('pub-hidden'); };
   window.addEventListener('click', function (e) {
-    if (e.target === modal) modal.classList.add('hidden');
+    if (e.target === modal) modal.classList.add('pub-hidden');
   });
 })();
