@@ -39,7 +39,7 @@ excerpt: ''
   color: #555;
   display: block;
 }
-.arxiv-value a { color: #b31b1b; text-decoration: none; }
+.arxiv-value a { color: #333; text-decoration: none; }
 .arxiv-value a:hover { text-decoration: underline; }
 .arxiv-btn {
   display: inline-block;
@@ -47,13 +47,14 @@ excerpt: ''
   padding: 5px 14px;
   font-size: 0.82em;
   font-weight: 500;
-  color: #fff;
-  background: #b31b1b;
+  color: #333;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
   border-radius: 3px;
   text-decoration: none;
   transition: background 0.2s;
 }
-.arxiv-btn:hover { background: #8b1515; color: #fff; }
+.arxiv-btn:hover { background: #e0e0e0; color: #333; }
 .arxiv-abstract {
   font-size: 0.95em;
   line-height: 1.75;
@@ -75,11 +76,6 @@ excerpt: ''
 .arxiv-keywords span {
   background: #f0f0f0; color: #555; font-size: 0.8em;
   padding: 3px 10px; border-radius: 3px;
-}
-.arxiv-bibtex {
-  background: #fafafa; border: 1px solid #e5e5e5; border-radius: 4px;
-  padding: 14px; font-family: monospace; font-size: 0.78em;
-  line-height: 1.6; overflow-x: auto; white-space: pre; color: #444;
 }
 @media (max-width: 700px) {
   .arxiv-wrap { flex-direction: column; }
@@ -118,12 +114,5 @@ excerpt: ''
       <span>Korean NLP</span>
     </div>
 
-    <div class="arxiv-section-title">BibTeX</div>
-    <div class="arxiv-bibtex">@inproceedings{kim2024depthupscaling,
-  title   = {Depth-Up Scaling을 활용한 언어 모델 증강과 소규모 데이터 학습 성능 비교},
-  author  = {Kim, Jaesung and Lee, Suan},
-  booktitle = {한국정보과학회 학술발표논문집},
-  year    = {2024}
-}</div>
   </div>
 </div>
