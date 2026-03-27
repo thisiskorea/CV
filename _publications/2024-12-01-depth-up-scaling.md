@@ -95,8 +95,6 @@ excerpt: ''
     <span class="arxiv-label">Venue</span>
     <span class="arxiv-value">KSC 2024<br><span style="font-size:0.88em;color:#888;">한국정보과학회 학술발표논문집</span></span>
 
-    <span class="arxiv-label">Links</span>
-    <a class="arxiv-btn" href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12042288">Paper</a>
   </div>
 
   <div class="arxiv-main">
