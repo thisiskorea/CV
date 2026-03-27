@@ -7,21 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a researcher at **Your University**.
+Welcome! I am an undergraduate researcher at **Semyung University**, Department of Computer Science, working in the **Data Intelligence Lab** (Advisor: Prof. Suan Lee).
 
 ## Research Interests
 
-- Your research interest 1
-- Your research interest 2
-- Your research interest 3
+- Large Language Models (LLMs)
+- Natural Language Processing
+- Knowledge Distillation & Model Compression
+- LLM Safety & Unlearning
 
 ## Education
 
-- **M.S./Ph.D.** in Your Department, Your University (2024 - Present)
-- **B.S.** in Your Department, Your University (2020 - 2024)
+- **B.S.** in Computer Science, Semyung University (2023 - Present)
 
 ## News
 
 | Date | Description |
 |------|-------------|
-| 2024.03 | Started graduate studies at Your University |
+| 2026.02 | Best Paper Award Runner-Up at IEEE BigComp 2026 |
+| 2025.10 | Journal paper accepted in 정보과학회 컴퓨팅의 실제 논문지 |
+| 2025.03 | Journal paper accepted in 정보과학회 컴퓨팅의 실제 논문지 |
+| 2025 | 총장상 수상, Semyung University |
