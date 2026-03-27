@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Academic Portfolio"
+title                    : "Jaesung Kim"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Jaesung Kim"
 description              : &description "Academic personal website"
 url                      : https://thisiskorea.github.io
 baseurl                  : "/cv"
@@ -23,11 +23,11 @@ repository               : "thisiskorea/cv"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Name"
+  name             : "Jaesung Kim (김재성)"
   pronouns         : # example: "he/him"
-  bio              : "Your research interest here"
+  bio              : "NLP & Sentiment Analysis"
   location         : "Seoul, Korea"
-  employer         : "Your University"
+  employer         : "Semyung University"
   uri              : # URL
   email            : "your-email@example.com"
 
