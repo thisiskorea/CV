@@ -90,6 +90,11 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 <div class="tl-year">2025</div>
 
 <div class="tl-entry">
+<span class="tl-badge tl-badge-venue">arXiv Preprint</span>
+<span class="tl-title">How Language Directions Align with Token Geometry in Multilingual LLMs</span>
+</div>
+
+<div class="tl-entry">
 <span class="tl-badge tl-badge-venue">대한전자공학회</span>
 <span class="tl-title">한국어 완곡 코팅을 통한 LLM 안전성 우회 분석</span>
 </div>
