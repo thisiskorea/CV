@@ -102,6 +102,8 @@ author_profile: true
     <div class="pub-links">
       {% if post.paperurl %}<a href="{{ post.paperurl }}"><i class="fa-solid fa-file-lines"></i> Paper</a>{% endif %}
       {% if post.codeurl %}<a href="{{ post.codeurl }}"><i class="fa-brands fa-github"></i> Code</a>{% endif %}
+      {% if post.dataseturl %}<a href="{{ post.dataseturl }}">Dataset</a>{% endif %}
+      {% if post.websiteurl %}<a href="{{ post.websiteurl }}">Website</a>{% endif %}
       {% if post.arxivurl %}<a href="{{ post.arxivurl }}"><i class="fa-solid fa-book-open"></i> arXiv</a>{% endif %}
       {% if post.slidesurl %}<a href="{{ post.slidesurl }}"><i class="fa-solid fa-display"></i> Slides</a>{% endif %}
     </div>
