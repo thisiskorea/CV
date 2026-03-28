@@ -101,6 +101,12 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 </div>
 
 <div class="tl-entry">
+<span class="tl-badge tl-badge-venue">ARR 2025</span>
+<span class="tl-title">Pretraining Builds Cooperation, Not Components: Tracking Inter-Layer Coordination via Lie Brackets</span>
+<span class="tl-sub">Under Review</span>
+</div>
+
+<div class="tl-entry">
 <span class="tl-badge tl-badge-venue">arXiv Preprint</span>
 <span class="tl-title">How Language Directions Align with Token Geometry in Multilingual LLMs</span>
 </div>
