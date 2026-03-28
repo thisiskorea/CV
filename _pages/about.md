@@ -68,6 +68,12 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 
 <div class="tl-year">2026</div>
 
+<div class="tl-entry">
+<span class="tl-badge tl-badge-venue">ARR 2026</span>
+<span class="tl-title">Pretraining Builds Cooperation, Not Components: Tracking Inter-Layer Coordination via Lie Brackets</span>
+<span class="tl-sub">Under Review</span>
+</div>
+
 <div class="tl-entry award">
 <span class="tl-badge tl-badge-venue">IEEE BigComp</span>
 <span class="tl-title">Linear Separability & Feature Importance Analysis in LLM Representation Spaces</span>
@@ -100,11 +106,6 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 <span class="tl-sub">D&B Track · Under Review</span>
 </div>
 
-<div class="tl-entry">
-<span class="tl-badge tl-badge-venue">ARR 2025</span>
-<span class="tl-title">Pretraining Builds Cooperation, Not Components: Tracking Inter-Layer Coordination via Lie Brackets</span>
-<span class="tl-sub">Under Review</span>
-</div>
 
 <div class="tl-entry">
 <span class="tl-badge tl-badge-venue">arXiv Preprint</span>

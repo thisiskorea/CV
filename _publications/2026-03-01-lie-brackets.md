@@ -3,8 +3,8 @@ title: "Pretraining Builds Cooperation, Not Components: Tracking Inter-Layer Coo
 collection: publications
 category: manuscripts
 permalink: /publication/2025-lie-brackets
-date: 2025-12-02
-venue: 'ARR March 2025 (Under Review)'
+date: 2026-03-01
+venue: 'ARR March 2026 (Under Review)'
 citation_authors: '<strong>Jaesung Kim</strong>, Suan Lee'
 paperurl: ''
 excerpt: ''
