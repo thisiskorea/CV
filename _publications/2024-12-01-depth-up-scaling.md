@@ -10,79 +10,7 @@ paperurl: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12042288'
 excerpt: ''
 ---
 
-<style>
-/* arXiv-style layout */
-.arxiv-wrap { display: flex; gap: 0; margin-top: -10px; }
-.arxiv-sidebar {
-  flex: 0 0 200px;
-  border-right: 1px solid #ddd;
-  padding-right: 20px;
-  font-size: 0.85em;
-  line-height: 1.7;
-}
-.arxiv-main {
-  flex: 1;
-  padding-left: 24px;
-  min-width: 0;
-}
-.arxiv-label {
-  font-weight: 600;
-  color: #333;
-  display: block;
-  margin-top: 14px;
-  font-size: 0.78em;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.arxiv-label:first-child { margin-top: 0; }
-.arxiv-value {
-  color: #555;
-  display: block;
-}
-.arxiv-value a { color: #333; text-decoration: none; }
-.arxiv-value a:hover { text-decoration: underline; }
-.arxiv-btn {
-  display: inline-block;
-  margin-top: 4px;
-  padding: 5px 14px;
-  font-size: 0.82em;
-  font-weight: 500;
-  color: #333;
-  background: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  text-decoration: none;
-  transition: background 0.2s;
-}
-.arxiv-btn:hover { background: #e0e0e0; color: #333; }
-.arxiv-abstract {
-  font-size: 0.95em;
-  line-height: 1.75;
-  color: #333;
-  margin-bottom: 28px;
-  text-align: justify;
-}
-.arxiv-section-title {
-  font-size: 0.95em;
-  font-weight: 700;
-  color: #333;
-  margin: 24px 0 10px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid #eee;
-}
-.arxiv-keywords {
-  display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;
-}
-.arxiv-keywords span {
-  background: #f0f0f0; color: #555; font-size: 0.8em;
-  padding: 3px 10px; border-radius: 3px;
-}
-@media (max-width: 700px) {
-  .arxiv-wrap { flex-direction: column; }
-  .arxiv-sidebar { flex: none; border-right: none; border-bottom: 1px solid #ddd; padding: 0 0 16px 0; margin-bottom: 16px; }
-  .arxiv-main { padding-left: 0; }
-}
-</style>
+<link rel="stylesheet" href="/CV/assets/css/pub-detail.css">
 
 <div class="arxiv-wrap">
   <div class="arxiv-sidebar">
@@ -94,7 +22,6 @@ excerpt: ''
 
     <span class="arxiv-label">Venue</span>
     <span class="arxiv-value">KSC 2024<br><span style="font-size:0.88em;color:#888;">한국정보과학회 학술발표논문집</span></span>
-
   </div>
 
   <div class="arxiv-main">
@@ -111,6 +38,5 @@ excerpt: ''
       <span>Fine-tuning</span>
       <span>Korean NLP</span>
     </div>
-
   </div>
 </div>

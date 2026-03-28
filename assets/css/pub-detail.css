@@ -1,0 +1,60 @@
+/* arXiv-style publication detail layout */
+.arxiv-wrap { display: flex; gap: 0; margin-top: -10px; }
+.arxiv-sidebar {
+  flex: 0 0 200px;
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+  font-size: 0.85em;
+  line-height: 1.7;
+}
+.arxiv-main {
+  flex: 1;
+  padding-left: 24px;
+  min-width: 0;
+}
+.arxiv-label {
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-top: 14px;
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.arxiv-label:first-child { margin-top: 0; }
+.arxiv-value {
+  color: #555;
+  display: block;
+}
+.arxiv-value a { color: #333; text-decoration: none; }
+.arxiv-value a:hover { text-decoration: underline; }
+.arxiv-abstract {
+  font-size: 0.95em;
+  line-height: 1.75;
+  color: #333;
+  margin-bottom: 28px;
+  text-align: justify;
+}
+.arxiv-section-title {
+  font-size: 0.95em;
+  font-weight: 700;
+  color: #333;
+  margin: 24px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eee;
+}
+.arxiv-keywords {
+  display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;
+}
+.arxiv-keywords span {
+  background: #f0f0f0; color: #555; font-size: 0.8em;
+  padding: 3px 10px; border-radius: 3px;
+}
+.arxiv-award {
+  color: #d4a017; font-weight: 600; font-size: 0.9em;
+}
+@media (max-width: 700px) {
+  .arxiv-wrap { flex-direction: column; }
+  .arxiv-sidebar { flex: none; border-right: none; border-bottom: 1px solid #ddd; padding: 0 0 16px 0; margin-bottom: 16px; }
+  .arxiv-main { padding-left: 0; }
+}
