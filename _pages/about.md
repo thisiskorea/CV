@@ -45,11 +45,13 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 .tl-entry.award::before{background:#c0392b;width:16px;height:16px;left:10px;top:10px;box-shadow:0 0 0 1px #c0392b}
 .tl-entry.grant::before{background:#2980b9;box-shadow:0 0 0 1px #2980b9}
 .tl-entry.scholarship::before{background:#27ae60;box-shadow:0 0 0 1px #27ae60}
+.tl-entry.activity::before{background:#8e44ad;box-shadow:0 0 0 1px #8e44ad}
 .tl-badge{display:inline-block;font-size:0.7em;font-weight:700;padding:1px 7px;border-radius:3px;margin-right:6px;vertical-align:middle;letter-spacing:0.3px}
 .tl-badge-venue{background:#333;color:#fff}
 .tl-badge-award{background:#c0392b;color:#fff}
 .tl-badge-grant{background:#2980b9;color:#fff}
 .tl-badge-scholar{background:#27ae60;color:#fff}
+.tl-badge-activity{background:#8e44ad;color:#fff}
 .tl-title{font-size:0.88em;color:#333}
 .tl-sub{display:block;font-size:0.75em;color:#999;margin-top:1px}
 .tl-legend{margin-top:20px;padding-left:50px;font-size:0.75em;color:#888}
@@ -59,6 +61,7 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 .tl-legend .l-pub{background:#d4a017}
 .tl-legend .l-grant{background:#2980b9}
 .tl-legend .l-scholar{background:#27ae60}
+.tl-legend .l-activity{background:#8e44ad}
 </style>
 
 <div class="tl">
@@ -133,6 +136,12 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 <span class="tl-title">Minimal Tuning, Maximum Gains: 선택적 레이어 파인튜닝</span>
 </div>
 
+<div class="tl-entry activity">
+<span class="tl-badge tl-badge-activity">캡스톤</span>
+<span class="tl-title">캡스톤디자인 II — 자동 연구 시스템</span>
+<span class="tl-sub">2학기</span>
+</div>
+
 <div class="tl-entry scholarship">
 <span class="tl-badge tl-badge-scholar">장학금</span>
 <span class="tl-title">제천시 장학금</span>
@@ -146,6 +155,18 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 <div class="tl-entry award">
 <span class="tl-badge tl-badge-award">수상</span>
 <span class="tl-title">총장상, Semyung University</span>
+</div>
+
+<div class="tl-entry activity">
+<span class="tl-badge tl-badge-activity">강의</span>
+<span class="tl-title">핸즈온 Skill업 — Transformer & LLM 강의</span>
+<span class="tl-sub">LLM 파트 담당 · <a href="/CV/files/Transformer 설명 (5).pdf" style="color:#8e44ad;">강의자료</a></span>
+</div>
+
+<div class="tl-entry activity">
+<span class="tl-badge tl-badge-activity">캡스톤</span>
+<span class="tl-title">캡스톤디자인 I</span>
+<span class="tl-sub">1학기</span>
 </div>
 
 <div class="tl-entry">
@@ -182,6 +203,12 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 <span class="tl-badge tl-badge-grant">연구과제</span>
 <span class="tl-title">AI 학습지원 플랫폼 1차년 — 지티어트랙션</span>
 <span class="tl-sub">중소기업기술정보진흥원 (2024.08 ~ 2024.12)</span>
+</div>
+
+<div class="tl-entry activity">
+<span class="tl-badge tl-badge-activity">해커톤</span>
+<span class="tl-title">Upstage AI Hackathon — RAG 기반 법률 언어 모델</span>
+<span class="tl-sub">2024 여름</span>
 </div>
 
 <div class="tl-entry scholarship">
@@ -223,5 +250,6 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 <span><i class="l-pub"></i>Publication</span>
 <span><i class="l-grant"></i>Grant</span>
 <span><i class="l-scholar"></i>Scholarship</span>
+<span><i class="l-activity"></i>Activity</span>
 <span>― Timeline</span>
 </div>
