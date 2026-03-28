@@ -95,6 +95,12 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 <div class="tl-year">2025</div>
 
 <div class="tl-entry">
+<span class="tl-badge tl-badge-venue">KDD 2025</span>
+<span class="tl-title">EuraGovExam: A Multilingual Multimodal Benchmark from Real-World Civil Service Exams</span>
+<span class="tl-sub">D&B Track · Under Review</span>
+</div>
+
+<div class="tl-entry">
 <span class="tl-badge tl-badge-venue">arXiv Preprint</span>
 <span class="tl-title">How Language Directions Align with Token Geometry in Multilingual LLMs</span>
 </div>
