@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-euragovexam
 date: 2025-12-01
 venue: 'KDD 2025 (D&B Track, Under Review)'
-citation_authors: '<strong>Jaesung Kim</strong>, Suan Lee'
+citation_authors: '<strong>Jaesung Kim</strong>, Chaehwan Lim<sup>†</sup>, Sanghyun Gil<sup>†</sup>, Suan Lee*'
 paperurl: ''
 codeurl: 'https://github.com/thisiskorea/EuraGovExam'
 excerpt: ''
@@ -16,7 +16,8 @@ excerpt: ''
 <div class="arxiv-wrap">
   <div class="arxiv-sidebar">
     <span class="arxiv-label">Authors</span>
-    <span class="arxiv-value"><strong>Jaesung Kim</strong>, Suan Lee</span>
+    <span class="arxiv-value"><strong>Jaesung Kim</strong>, Chaehwan Lim<sup>†</sup>, Sanghyun Gil<sup>†</sup>, Suan Lee*</span>
+    <span style="font-size:0.72em;color:#999;margin-top:2px;display:block">†Equal contribution as co-second authors · *Corresponding author</span>
 
     <span class="arxiv-label">Status</span>
     <span class="arxiv-value">Under Review</span>
