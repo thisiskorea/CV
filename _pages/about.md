@@ -149,6 +149,11 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 <span class="tl-title">Minimal Tuning, Maximum Gains: 선택적 레이어 파인튜닝</span>
 </div>
 
+<div class="tl-entry">
+<span class="tl-badge tl-badge-venue">arXiv Preprint</span>
+<span class="tl-title">Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes</span>
+</div>
+
 <div class="tl-entry activity">
 <span class="tl-badge tl-badge-activity">캡스톤</span>
 <span class="tl-title">캡스톤디자인 II — 자동 연구 시스템</span>
