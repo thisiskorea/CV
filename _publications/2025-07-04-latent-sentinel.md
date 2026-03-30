@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-latent-sentinel
 date: 2025-07-04
-venue: 'arXiv Preprint'
+venue: 'KDD 2026 (Under Review)'
 citation_authors: '<strong>Jaesung Kim</strong>, Suan Lee'
 paperurl: '/CV/paper/Latent Sentinel (2).pdf'
 excerpt: ''
@@ -20,8 +20,11 @@ excerpt: ''
     <span class="arxiv-label">Published</span>
     <span class="arxiv-value">2025</span>
 
+    <span class="arxiv-label">Status</span>
+    <span class="arxiv-value">Under Review</span>
+
     <span class="arxiv-label">Venue</span>
-    <span class="arxiv-value">arXiv<br><span style="font-size:0.88em;color:#888;">Preprint</span></span>
+    <span class="arxiv-value">KDD 2026</span>
   </div>
 
   <div class="arxiv-main">

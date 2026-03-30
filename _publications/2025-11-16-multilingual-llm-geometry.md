@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-multilingual-llm-geometry
 date: 2025-11-16
-venue: 'arXiv Preprint'
+venue: 'ACL 2026 Student Research Workshop (Under Review)'
 citation_authors: '<strong>Jaesung Kim</strong>, Suan Lee'
 paperurl: 'https://arxiv.org/abs/2511.16693'
 excerpt: ''
@@ -20,8 +20,11 @@ excerpt: ''
     <span class="arxiv-label">Published</span>
     <span class="arxiv-value">November 2025</span>
 
+    <span class="arxiv-label">Status</span>
+    <span class="arxiv-value">Under Review</span>
+
     <span class="arxiv-label">Venue</span>
-    <span class="arxiv-value">arXiv<br><span style="font-size:0.88em;color:#888;">Preprint</span></span>
+    <span class="arxiv-value">ACL 2026 SRW<br><span style="font-size:0.88em;color:#888;">Student Research Workshop</span></span>
   </div>
 
   <div class="arxiv-main">

@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026-semantic-directions
 date: 2026-02-15
-venue: 'arXiv Preprint'
+venue: 'UAI 2026 (Under Review)'
 citation_authors: '<strong>Jaesung Kim</strong>, Suan Lee'
 paperurl: '/CV/paper/Semantic_Directions_Emerge_from_Sparse_Token_Mixtures (89).pdf'
 arxivurl: ''
@@ -21,8 +21,11 @@ excerpt: ''
     <span class="arxiv-label">Published</span>
     <span class="arxiv-value">2026</span>
 
+    <span class="arxiv-label">Status</span>
+    <span class="arxiv-value">Under Review</span>
+
     <span class="arxiv-label">Venue</span>
-    <span class="arxiv-value">arXiv<br><span style="font-size:0.88em;color:#888;">Preprint</span></span>
+    <span class="arxiv-value">UAI 2026</span>
   </div>
 
   <div class="arxiv-main">
