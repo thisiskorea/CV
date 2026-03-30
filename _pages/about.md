@@ -24,7 +24,7 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 
 ## Education
 
-- **B.S.** in Computer Science, Semyung University (2023 - Present)
+- **B.S.** in Computer Science, Semyung University (2023 - Present) · GPA: 4.12 / 4.50
 - **Data Intelligence Lab**, Semyung University (2023 - Present)
   - Advisor: Prof. Suan Lee
 
