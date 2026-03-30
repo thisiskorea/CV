@@ -114,6 +114,11 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 
 <div class="tl-entry">
 <span class="tl-badge tl-badge-venue">arXiv Preprint</span>
+<span class="tl-title">Latent Merging: Dynamic and Reversible Composition of Large Language Models</span>
+</div>
+
+<div class="tl-entry">
+<span class="tl-badge tl-badge-venue">arXiv Preprint</span>
 <span class="tl-title">How Language Directions Align with Token Geometry in Multilingual LLMs</span>
 </div>
 
