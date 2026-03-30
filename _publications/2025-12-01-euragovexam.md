@@ -7,9 +7,9 @@ date: 2025-12-01
 venue: 'KDD 2025 (D&B Track, Under Review)'
 citation_authors: '<strong>Jaesung Kim</strong>, Chaehwan Lim<sup>†</sup>, Sanghyun Gil<sup>†</sup>, Suan Lee*'
 paperurl: '/CV/paper/EuraGovExam (101).pdf'
-codeurl: 'https://github.com/thisiskorea/EuraGovExam'
+codeurl: 'https://github.com/jeaseongkim/EuraGovExam'
 dataseturl: 'https://huggingface.co/datasets/EuraGovExam/EuraGovExam'
-websiteurl: 'https://thisiskorea.github.io/EuraGovExam/'
+websiteurl: 'https://jeaseongkim.github.io/EuraGovExam/'
 excerpt: ''
 ---
 
@@ -29,9 +29,9 @@ excerpt: ''
 
     <span class="arxiv-label">Resources</span>
     <span class="arxiv-value">
-      <a href="https://github.com/thisiskorea/EuraGovExam">Code</a><br>
+      <a href="https://github.com/jeaseongkim/EuraGovExam">Code</a><br>
       <a href="https://huggingface.co/datasets/EuraGovExam/EuraGovExam">Dataset</a><br>
-      <a href="https://thisiskorea.github.io/EuraGovExam/">Website</a>
+      <a href="https://jeaseongkim.github.io/EuraGovExam/">Website</a>
     </span>
   </div>
 
