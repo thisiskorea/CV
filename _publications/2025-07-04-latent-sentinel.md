@@ -6,7 +6,7 @@ permalink: /publication/2025-latent-sentinel
 date: 2025-07-04
 venue: 'arXiv Preprint'
 citation_authors: '<strong>Jaesung Kim</strong>, Suan Lee'
-paperurl: ''
+paperurl: '/CV/paper/Latent Sentinel (2).pdf'
 excerpt: ''
 ---
 

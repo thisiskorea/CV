@@ -6,7 +6,7 @@ permalink: /publication/2025-lie-brackets
 date: 2026-03-01
 venue: 'ARR March 2026 (Under Review)'
 citation_authors: '<strong>Jaesung Kim</strong>, Suan Lee'
-paperurl: ''
+paperurl: '/CV/paper/Pretraining Builds Cooperation.pdf'
 excerpt: ''
 ---
 
