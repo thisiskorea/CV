@@ -1,3 +1,13 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+  // Force light mode: remove dark theme attribute immediately and on any change
+  document.documentElement.removeAttribute("data-theme");
+  new MutationObserver(function() {
+    if (document.documentElement.getAttribute("data-theme") === "dark") {
+      document.documentElement.removeAttribute("data-theme");
+    }
+  }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  localStorage.setItem("theme", "light");
+</script>
 
 {% include analytics.html %}
