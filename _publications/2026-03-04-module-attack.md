@@ -16,19 +16,22 @@ excerpt: ''
   <div class="arxiv-sidebar">
     <span class="arxiv-label">Authors</span>
     <span class="arxiv-value"><strong>Jaesung Kim</strong>, Suan Lee</span>
-
     <span class="arxiv-label">Status</span>
     <span class="arxiv-value">Under Review</span>
-
     <span class="arxiv-label">Venue</span>
-    <span class="arxiv-value">Journal of KIISE<br><span style="font-size:0.88em;color:#888;">정보과학회논문지</span></span>
+    <span class="arxiv-value">Journal<br><span style="font-size:0.88em;color:#888;">Journal of KIISE</span></span>
   </div>
-
   <div class="arxiv-main">
     <div class="arxiv-section-title">Abstract</div>
-    <div class="arxiv-abstract">This paper presents Module Attack, a novel adversarial method that exploits module swapping within transformer architectures to compromise the safety alignments of large language models. By strategically replacing specific attention heads or feed-forward modules with those from unaligned models, we demonstrate that LLM safety can be undermined without modifying the majority of model parameters. Our findings highlight a critical vulnerability in modular LLM architectures and suggest the need for alignment strategies that are robust to component-level attacks.</div>
-
+    <div class="arxiv-abstract">
+      This paper introduces Module Attack, a novel attack method that exploits module swapping to compromise the safety alignments of large language models. By strategically replacing specific transformer modules (e.g., attention heads, MLP layers) between aligned and unaligned model variants, we demonstrate that LLM safety mechanisms can be bypassed without direct fine-tuning or prompt engineering. Our findings reveal structural vulnerabilities in current alignment approaches and suggest directions for more robust safety mechanisms.
+    </div>
     <div class="arxiv-section-title">Keywords</div>
-    <div class="arxiv-keywords">Module Attack, LLM Safety, Alignment, Adversarial Attack, Transformer Modules</div>
+    <div class="arxiv-keywords">
+      <span>LLM Safety</span>
+      <span>Module Swapping</span>
+      <span>Alignment Attack</span>
+      <span>Transformer Architecture</span>
+    </div>
   </div>
 </div>

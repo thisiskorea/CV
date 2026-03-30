@@ -16,19 +16,22 @@ excerpt: ''
   <div class="arxiv-sidebar">
     <span class="arxiv-label">Authors</span>
     <span class="arxiv-value"><strong>Jaesung Kim</strong>, Suan Lee</span>
-
     <span class="arxiv-label">Status</span>
     <span class="arxiv-value">Under Review</span>
-
     <span class="arxiv-label">Venue</span>
-    <span class="arxiv-value">ECML-PKDD 2026<br><span style="font-size:0.88em;color:#888;">European Conference on Machine Learning</span></span>
+    <span class="arxiv-value">ECML-PKDD 2026</span>
   </div>
-
   <div class="arxiv-main">
     <div class="arxiv-section-title">Abstract</div>
-    <div class="arxiv-abstract">This paper investigates whether large language models converge in their internal reasoning processes despite differences in architecture, training data, and scale. By analyzing the latent representations of diverse LLMs across shared tasks, we examine whether a "hivemind" phenomenon exists where models develop similar internal computational strategies. Our analysis reveals surprising patterns of convergence in how different models process and represent information, raising fundamental questions about the nature of learned representations in neural language models.</div>
-
+    <div class="arxiv-abstract">
+      This paper explores whether large language models converge in their internal reasoning processes despite differences in architecture, scale, and training. Through systematic analysis of latent representations across diverse LLMs, we investigate the degree to which models develop shared computational strategies — a phenomenon we term the "Latent Hivemind." Our findings reveal surprising convergence patterns in how LLMs structure their internal representations, suggesting fundamental commonalities in learned language understanding.
+    </div>
     <div class="arxiv-section-title">Keywords</div>
-    <div class="arxiv-keywords">LLM Convergence, Latent Representations, Model Comparison, Interpretability, Reasoning</div>
+    <div class="arxiv-keywords">
+      <span>LLM Convergence</span>
+      <span>Latent Representations</span>
+      <span>Model Comparison</span>
+      <span>Interpretability</span>
+    </div>
   </div>
 </div>
