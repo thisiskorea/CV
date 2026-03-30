@@ -335,3 +335,112 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 <span><i class="l-activity"></i>Activity</span>
 <span>― Timeline</span>
 </div>
+
+---
+
+## Research at a Glance
+
+<style>
+/* Counter Cards */
+.stats-row{display:flex;gap:16px;flex-wrap:wrap;margin:24px 0 40px 0;justify-content:center}
+.stat-card{flex:1;min-width:120px;max-width:160px;text-align:center;padding:20px 10px;border:1px solid #e5e7eb;border-radius:8px;background:#fafafa}
+.stat-num{font-size:2.2em;font-weight:800;color:#222;line-height:1;display:block}
+.stat-label{font-size:0.72em;color:#888;margin-top:6px;text-transform:uppercase;letter-spacing:0.5px;display:block}
+
+/* Research Network */
+.rn-wrap{position:relative;width:100%;max-width:520px;height:420px;margin:0 auto 20px auto}
+.rn-node{position:absolute;text-align:center;z-index:2}
+.rn-core{left:50%;top:50%;transform:translate(-50%,-50%);width:100px;height:100px;border-radius:50%;background:#222;display:flex;align-items:center;justify-content:center;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.15)}
+.rn-core-text{color:#fff;font-size:0.85em;font-weight:700;line-height:1.2}
+.rn-core-sub{color:rgba(255,255,255,0.6);font-size:0.6em;margin-top:2px}
+.rn-branch{width:80px;height:80px;border-radius:50%;background:#fff;border:2px solid #ddd;display:flex;align-items:center;justify-content:center;flex-direction:column;transition:all 0.3s;cursor:default;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.rn-branch:hover{border-color:#222;box-shadow:0 4px 16px rgba(0,0,0,0.12);transform:scale(1.08)}
+.rn-branch-count{font-size:1.3em;font-weight:800;color:#222;line-height:1}
+.rn-branch-label{font-size:0.52em;color:#888;margin-top:3px;text-transform:uppercase;letter-spacing:0.3px;line-height:1.2;text-align:center}
+.rn-line{position:absolute;background:#ddd;z-index:1}
+
+/* Node positions */
+.rn-n1{left:50%;top:0;transform:translateX(-50%)}
+.rn-n2{right:10px;top:60px}
+.rn-n3{right:0;top:220px}
+.rn-n4{right:40px;bottom:20px}
+.rn-n5{left:40px;bottom:20px}
+.rn-n6{left:0;top:220px}
+.rn-n7{left:10px;top:60px}
+
+/* Lines from center to nodes */
+.rn-l1{left:50%;top:80px;width:2px;height:80px;transform:translateX(-50%)}
+.rn-l2{left:295px;top:135px;width:2px;height:60px;transform:rotate(-55deg)}
+.rn-l3{left:310px;top:230px;width:2px;height:60px;transform:rotate(-20deg)}
+.rn-l4{left:280px;top:310px;width:2px;height:60px;transform:rotate(35deg)}
+.rn-l5{left:200px;top:310px;width:2px;height:60px;transform:rotate(-35deg)}
+.rn-l6{left:165px;top:230px;width:2px;height:60px;transform:rotate(20deg)}
+.rn-l7{left:175px;top:135px;width:2px;height:60px;transform:rotate(55deg)}
+
+/* Animate counters */
+@keyframes countUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.stat-num{animation:countUp 0.6s ease-out both}
+.stat-card:nth-child(1) .stat-num{animation-delay:0s}
+.stat-card:nth-child(2) .stat-num{animation-delay:0.1s}
+.stat-card:nth-child(3) .stat-num{animation-delay:0.2s}
+.stat-card:nth-child(4) .stat-num{animation-delay:0.3s}
+
+@media(max-width:600px){
+  .rn-wrap{height:360px;max-width:360px}
+  .rn-core{width:80px;height:80px}
+  .rn-branch{width:64px;height:64px}
+  .rn-branch-count{font-size:1.1em}
+  .rn-branch-label{font-size:0.48em}
+  .rn-n2{right:0;top:50px}
+  .rn-n3{right:-10px;top:180px}
+  .rn-n4{right:20px;bottom:10px}
+  .rn-n5{left:20px;bottom:10px}
+  .rn-n6{left:-10px;top:180px}
+  .rn-n7{left:0;top:50px}
+  .stat-card{min-width:100px}
+}
+</style>
+
+<div class="stats-row">
+  <div class="stat-card"><span class="stat-num">26</span><span class="stat-label">Papers</span></div>
+  <div class="stat-card"><span class="stat-num">15</span><span class="stat-label">Accepted</span></div>
+  <div class="stat-card"><span class="stat-num">3</span><span class="stat-label">Awards</span></div>
+  <div class="stat-card"><span class="stat-num">14</span><span class="stat-label">1st Author</span></div>
+</div>
+
+<div class="rn-wrap">
+  <div class="rn-line rn-l1"></div>
+  <div class="rn-line rn-l2"></div>
+  <div class="rn-line rn-l3"></div>
+  <div class="rn-line rn-l4"></div>
+  <div class="rn-line rn-l5"></div>
+  <div class="rn-line rn-l6"></div>
+  <div class="rn-line rn-l7"></div>
+
+  <div class="rn-node rn-core">
+    <span class="rn-core-text">LLM</span>
+    <span class="rn-core-sub">Internals</span>
+  </div>
+
+  <div class="rn-node rn-n1">
+    <div class="rn-branch"><span class="rn-branch-count">5</span><span class="rn-branch-label">Interpret-<br>ability</span></div>
+  </div>
+  <div class="rn-node rn-n2">
+    <div class="rn-branch"><span class="rn-branch-count">4</span><span class="rn-branch-label">Safety &<br>Alignment</span></div>
+  </div>
+  <div class="rn-node rn-n3">
+    <div class="rn-branch"><span class="rn-branch-count">4</span><span class="rn-branch-label">Efficient<br>LLM</span></div>
+  </div>
+  <div class="rn-node rn-n4">
+    <div class="rn-branch"><span class="rn-branch-count">3</span><span class="rn-branch-label">Bench-<br>marking</span></div>
+  </div>
+  <div class="rn-node rn-n5">
+    <div class="rn-branch"><span class="rn-branch-count">4</span><span class="rn-branch-label">Legal &<br>Domain</span></div>
+  </div>
+  <div class="rn-node rn-n6">
+    <div class="rn-branch"><span class="rn-branch-count">3</span><span class="rn-branch-label">Model<br>Merging</span></div>
+  </div>
+  <div class="rn-node rn-n7">
+    <div class="rn-branch"><span class="rn-branch-count">3</span><span class="rn-branch-label">Multi-<br>lingual</span></div>
+  </div>
+</div>
