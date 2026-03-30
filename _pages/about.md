@@ -75,12 +75,6 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 <div class="tl-year">2026</div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">ACL 2026 SRW</span>
-<span class="tl-title">TuFA: Tuning-Free Adaptation via Latent Projection and Lightweight Classification</span>
-<span class="tl-sub">Under Review</span>
-</div>
-
-<div class="tl-entry">
 <span class="tl-badge tl-badge-venue">ECML-PKDD 2026</span>
 <span class="tl-title">The Latent Hivemind: Do LLMs Converge in How They Think?</span>
 <span class="tl-sub">Under Review</span>
