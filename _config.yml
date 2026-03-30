@@ -13,16 +13,16 @@ title                    : "Jaesung Kim"
 title_separator          : "-"
 name                     : &name "Jaesung Kim"
 description              : &description "Academic personal website"
-url                      : https://thisiskorea.github.io
+url                      : https://jeaseongkim.github.io
 baseurl                  : "/cv"
-repository               : "thisiskorea/cv"
+repository               : "jeaseongkim/cv"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://thisiskorea.github.io/CV/images/profile.png"
+  avatar           : "https://jeaseongkim.github.io/CV/images/profile.png"
   name             : "Jaesung Kim (김재성)"
   pronouns         : # example: "he/him"
   bio              : "NLP & Sentiment Analysis"
@@ -37,7 +37,7 @@ author:
   orcid            : # "https://orcid.org/your-orcid"
 
   # Repositories and software development
-  github           : "thisiskorea"
+  github           : "jeaseongkim"
 
   # Social media
   linkedin         : # Username
