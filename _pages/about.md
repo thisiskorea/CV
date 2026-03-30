@@ -74,6 +74,11 @@ Welcome! I am an undergraduate researcher at **Semyung University**, Department 
 <span class="tl-sub">Under Review</span>
 </div>
 
+<div class="tl-entry">
+<span class="tl-badge tl-badge-venue">arXiv Preprint</span>
+<span class="tl-title">Semantic Directions Emerge from Sparse Token Mixture</span>
+</div>
+
 <div class="tl-entry award">
 <span class="tl-badge tl-badge-venue">IEEE BigComp</span>
 <span class="tl-title">Linear Separability & Feature Importance Analysis in LLM Representation Spaces</span>
