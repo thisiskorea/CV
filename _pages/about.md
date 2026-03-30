@@ -231,12 +231,6 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 <span class="tl-title">Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes</span>
 </div>
 
-<div class="tl-entry activity">
-<span class="tl-badge tl-badge-activity">캡스톤</span>
-<span class="tl-title">캡스톤디자인 II — 자동 연구 시스템</span>
-<span class="tl-sub">2학기</span>
-</div>
-
 <div class="tl-entry scholarship">
 <span class="tl-badge tl-badge-scholar">장학금</span>
 <span class="tl-title">제천시 장학금</span>
@@ -256,12 +250,6 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 <span class="tl-badge tl-badge-activity">강의</span>
 <span class="tl-title">핸즈온 Skill업 — Transformer & LLM 강의</span>
 <span class="tl-sub">LLM 파트 담당 · <a href="/CV/files/Transformer 설명 (5).pdf" style="color:#8e44ad;">강의자료</a></span>
-</div>
-
-<div class="tl-entry activity">
-<span class="tl-badge tl-badge-activity">캡스톤</span>
-<span class="tl-title">캡스톤디자인 I</span>
-<span class="tl-sub">1학기</span>
 </div>
 
 <div class="tl-entry">
