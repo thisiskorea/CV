@@ -346,8 +346,6 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 .stat-card{flex:1;min-width:120px;max-width:160px;text-align:center;padding:20px 10px;border:1px solid #e5e7eb;border-radius:8px;background:#fafafa}
 .stat-num{font-size:2.2em;font-weight:800;color:#222;line-height:1;display:block}
 .stat-label{font-size:0.72em;color:#888;margin-top:6px;text-transform:uppercase;letter-spacing:0.5px;display:block}
-
-/* Animate counters */
 @keyframes countUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 .stat-num{animation:countUp 0.6s ease-out both}
 .stat-card:nth-child(1) .stat-num{animation-delay:0s}
@@ -355,14 +353,49 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 .stat-card:nth-child(3) .stat-num{animation-delay:0.2s}
 .stat-card:nth-child(4) .stat-num{animation-delay:0.3s}
 
-/* Research Network SVG */
-.rn-svg-wrap{width:100%;max-width:480px;margin:0 auto 20px auto}
-.rn-svg-wrap svg{width:100%;height:auto}
-.rn-svg-wrap text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+/* Research Network */
+.rn-container{max-width:520px;margin:0 auto 20px auto}
+.rn-graph{position:relative;width:100%;padding-bottom:100%}
+.rn-svg-bg{position:absolute;top:0;left:0;width:100%;height:100%}
+.rn-node{position:absolute;transform:translate(-50%,-50%);cursor:pointer;z-index:2;transition:all 0.3s}
+.rn-node:hover .rn-circle{border-color:#222;box-shadow:0 4px 16px rgba(0,0,0,0.15)}
+.rn-node.active .rn-circle{border-color:#222;background:#222}
+.rn-node.active .rn-count{color:#fff}
+.rn-node.active .rn-lbl{color:rgba(255,255,255,0.7)}
+.rn-circle{width:84px;height:84px;border-radius:50%;background:#fff;border:2px solid #ddd;display:flex;align-items:center;justify-content:center;flex-direction:column;transition:all 0.3s;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.rn-count{font-size:1.4em;font-weight:800;color:#222;line-height:1;transition:color 0.3s}
+.rn-lbl{font-size:0.5em;color:#888;margin-top:3px;text-transform:uppercase;letter-spacing:0.3px;text-align:center;line-height:1.3;transition:color 0.3s}
+.rn-core{left:50%;top:50%}
+.rn-core .rn-circle{width:104px;height:104px;background:#222;border:none;box-shadow:0 4px 20px rgba(0,0,0,0.15);cursor:default}
+.rn-core .rn-count{color:#fff;font-size:1em}
+.rn-core .rn-lbl{color:rgba(255,255,255,0.6);font-size:0.55em}
+.rn-n0{left:50%;top:6%}
+.rn-n1{left:88%;top:19%}
+.rn-n2{left:94%;top:56%}
+.rn-n3{left:76%;top:88%}
+.rn-n4{left:24%;top:88%}
+.rn-n5{left:6%;top:56%}
+.rn-n6{left:12%;top:19%}
+
+/* Paper list panel */
+.rn-papers{max-height:0;overflow:hidden;transition:max-height 0.4s ease,padding 0.4s ease;background:#fafafa;border-radius:8px;margin-top:16px}
+.rn-papers.open{max-height:600px;padding:16px 20px;border:1px solid #e5e7eb}
+.rn-papers-title{font-size:0.85em;font-weight:700;color:#222;margin:0 0 10px 0;padding-bottom:8px;border-bottom:1px solid #eee}
+.rn-papers ul{list-style:none;padding:0;margin:0}
+.rn-papers li{padding:8px 0;border-bottom:1px solid #f0f0f0;font-size:0.82em;line-height:1.5}
+.rn-papers li:last-child{border-bottom:none}
+.rn-papers li a{color:#333;text-decoration:none}
+.rn-papers li a:hover{text-decoration:underline}
+.rn-papers .rn-venue{color:#888;font-size:0.88em}
+.rn-hint{text-align:center;font-size:0.72em;color:#bbb;margin-top:8px}
 
 @media(max-width:600px){
   .stat-card{min-width:100px}
-  .rn-svg-wrap{max-width:340px}
+  .rn-container{max-width:360px}
+  .rn-circle{width:64px;height:64px}
+  .rn-count{font-size:1.1em}
+  .rn-lbl{font-size:0.44em}
+  .rn-core .rn-circle{width:80px;height:80px}
 }
 </style>
 
@@ -373,60 +406,137 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
   <div class="stat-card"><span class="stat-num">14</span><span class="stat-label">1st Author</span></div>
 </div>
 
-<div class="rn-svg-wrap">
-<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
-  <!-- Lines from center to nodes -->
-  <line x1="240" y1="240" x2="240" y2="55" stroke="#ddd" stroke-width="2"/>
-  <line x1="240" y1="240" x2="407" y2="112" stroke="#ddd" stroke-width="2"/>
-  <line x1="240" y1="240" x2="430" y2="288" stroke="#ddd" stroke-width="2"/>
-  <line x1="240" y1="240" x2="350" y2="430" stroke="#ddd" stroke-width="2"/>
-  <line x1="240" y1="240" x2="130" y2="430" stroke="#ddd" stroke-width="2"/>
-  <line x1="240" y1="240" x2="50" y2="288" stroke="#ddd" stroke-width="2"/>
-  <line x1="240" y1="240" x2="73" y2="112" stroke="#ddd" stroke-width="2"/>
+<div class="rn-container">
+  <div class="rn-graph">
+    <svg class="rn-svg-bg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+      <line x1="50" y1="50" x2="50" y2="6" stroke="#ddd" stroke-width="0.5"/>
+      <line x1="50" y1="50" x2="88" y2="19" stroke="#ddd" stroke-width="0.5"/>
+      <line x1="50" y1="50" x2="94" y2="56" stroke="#ddd" stroke-width="0.5"/>
+      <line x1="50" y1="50" x2="76" y2="88" stroke="#ddd" stroke-width="0.5"/>
+      <line x1="50" y1="50" x2="24" y2="88" stroke="#ddd" stroke-width="0.5"/>
+      <line x1="50" y1="50" x2="6" y2="56" stroke="#ddd" stroke-width="0.5"/>
+      <line x1="50" y1="50" x2="12" y2="19" stroke="#ddd" stroke-width="0.5"/>
+    </svg>
 
-  <!-- Center node -->
-  <circle cx="240" cy="240" r="52" fill="#222" stroke="none"/>
-  <text x="240" y="235" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">LLM</text>
-  <text x="240" y="255" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">Internals</text>
+    <div class="rn-node rn-core">
+      <div class="rn-circle"><span class="rn-count">LLM</span><span class="rn-lbl">Internals</span></div>
+    </div>
 
-  <!-- Branch nodes -->
-  <!-- Top: Interpretability -->
-  <circle cx="240" cy="55" r="42" fill="#fff" stroke="#ddd" stroke-width="2"/>
-  <text x="240" y="48" text-anchor="middle" fill="#222" font-size="20" font-weight="800">5</text>
-  <text x="240" y="65" text-anchor="middle" fill="#888" font-size="8" text-transform="uppercase" letter-spacing="0.5">INTERPRETABILITY</text>
+    <div class="rn-node rn-n0" onclick="toggleRnPapers('interp')">
+      <div class="rn-circle"><span class="rn-count">5</span><span class="rn-lbl">Interpret-<br>ability</span></div>
+    </div>
+    <div class="rn-node rn-n1" onclick="toggleRnPapers('safety')">
+      <div class="rn-circle"><span class="rn-count">4</span><span class="rn-lbl">Safety &<br>Alignment</span></div>
+    </div>
+    <div class="rn-node rn-n2" onclick="toggleRnPapers('efficient')">
+      <div class="rn-circle"><span class="rn-count">4</span><span class="rn-lbl">Efficient<br>LLM</span></div>
+    </div>
+    <div class="rn-node rn-n3" onclick="toggleRnPapers('bench')">
+      <div class="rn-circle"><span class="rn-count">3</span><span class="rn-lbl">Bench-<br>marking</span></div>
+    </div>
+    <div class="rn-node rn-n4" onclick="toggleRnPapers('legal')">
+      <div class="rn-circle"><span class="rn-count">4</span><span class="rn-lbl">Legal &<br>Domain</span></div>
+    </div>
+    <div class="rn-node rn-n5" onclick="toggleRnPapers('merging')">
+      <div class="rn-circle"><span class="rn-count">3</span><span class="rn-lbl">Model<br>Merging</span></div>
+    </div>
+    <div class="rn-node rn-n6" onclick="toggleRnPapers('multi')">
+      <div class="rn-circle"><span class="rn-count">3</span><span class="rn-lbl">Multi-<br>lingual</span></div>
+    </div>
+  </div>
 
-  <!-- Top-right: Safety -->
-  <circle cx="407" cy="112" r="42" fill="#fff" stroke="#ddd" stroke-width="2"/>
-  <text x="407" y="106" text-anchor="middle" fill="#222" font-size="20" font-weight="800">4</text>
-  <text x="407" y="120" text-anchor="middle" fill="#888" font-size="8">SAFETY &amp;</text>
-  <text x="407" y="130" text-anchor="middle" fill="#888" font-size="8">ALIGNMENT</text>
+  <p class="rn-hint">Click a node to see related papers</p>
 
-  <!-- Right: Efficient LLM -->
-  <circle cx="430" cy="288" r="42" fill="#fff" stroke="#ddd" stroke-width="2"/>
-  <text x="430" y="283" text-anchor="middle" fill="#222" font-size="20" font-weight="800">4</text>
-  <text x="430" y="298" text-anchor="middle" fill="#888" font-size="8">EFFICIENT</text>
-  <text x="430" y="308" text-anchor="middle" fill="#888" font-size="8">LLM</text>
-
-  <!-- Bottom-right: Benchmarking -->
-  <circle cx="350" cy="430" r="42" fill="#fff" stroke="#ddd" stroke-width="2"/>
-  <text x="350" y="425" text-anchor="middle" fill="#222" font-size="20" font-weight="800">3</text>
-  <text x="350" y="442" text-anchor="middle" fill="#888" font-size="8">BENCHMARKING</text>
-
-  <!-- Bottom-left: Legal & Domain -->
-  <circle cx="130" cy="430" r="42" fill="#fff" stroke="#ddd" stroke-width="2"/>
-  <text x="130" y="425" text-anchor="middle" fill="#222" font-size="20" font-weight="800">4</text>
-  <text x="130" y="440" text-anchor="middle" fill="#888" font-size="8">LEGAL &amp;</text>
-  <text x="130" y="450" text-anchor="middle" fill="#888" font-size="8">DOMAIN</text>
-
-  <!-- Left: Model Merging -->
-  <circle cx="50" cy="288" r="42" fill="#fff" stroke="#ddd" stroke-width="2"/>
-  <text x="50" y="283" text-anchor="middle" fill="#222" font-size="20" font-weight="800">3</text>
-  <text x="50" y="298" text-anchor="middle" fill="#888" font-size="8">MODEL</text>
-  <text x="50" y="308" text-anchor="middle" fill="#888" font-size="8">MERGING</text>
-
-  <!-- Top-left: Multilingual -->
-  <circle cx="73" cy="112" r="42" fill="#fff" stroke="#ddd" stroke-width="2"/>
-  <text x="73" y="106" text-anchor="middle" fill="#222" font-size="20" font-weight="800">3</text>
-  <text x="73" y="122" text-anchor="middle" fill="#888" font-size="8">MULTILINGUAL</text>
-</svg>
+  <div class="rn-papers" id="rn-papers-panel"></div>
 </div>
+
+<script>
+var rnData = {
+  interp: {
+    title: "Interpretability & Representation Analysis",
+    papers: [
+      {t:"Semantic Directions Emerge from Sparse Token Mixture", v:"UAI 2026, Under Review", u:"/CV/publication/2026-semantic-directions"},
+      {t:"Pretraining Builds Cooperation, Not Components", v:"ARR March 2026, Under Review", u:"/CV/publication/2025-lie-brackets"},
+      {t:"Linear Separability and Feature Importance Analysis in LLM Representation Spaces", v:"IEEE BigComp 2026", u:"/CV/publication/2026-bigcomp-linear-separability"},
+      {t:"Same Benchmark, Same Subspace: Task-Selective Convergence", v:"UAI 2026, Under Review", u:"/CV/publication/2026-same-benchmark"},
+      {t:"Order Within LLMs: Task-specific Representation Organization", v:"KDBC 2025", u:"/CV/publication/2025-order-within-llms"}
+    ]
+  },
+  safety: {
+    title: "Safety & Alignment",
+    papers: [
+      {t:"Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes", v:"KDD 2026, Under Review", u:"/CV/publication/2025-latent-sentinel"},
+      {t:"Module Attack: Exploiting Module Swapping to Compromise LLM Alignments", v:"Journal of KIISE, Under Review", u:"/CV/publication/2026-module-attack"},
+      {t:"Analyzing LLM Safety Circumvention via Multilingual Euphemistic Coating", v:"IEEE BigComp 2026", u:"/CV/publication/2026-bigcomp-euphemism"},
+      {t:"한국어 완곡 코팅을 통한 LLM 안전성 우회 분석", v:"IEIE 2025", u:"/CV/publication/2025-korean-euphemism-llm-safety"}
+    ]
+  },
+  efficient: {
+    title: "Efficient LLM",
+    papers: [
+      {t:"CipherTune: Training-Free LLM Calibration via Low-Dimensional Error Subspace Correction", v:"ECML-PKDD 2026, Under Review", u:"/CV/publication/2026-ciphertune"},
+      {t:"Minimal Tuning, Maximum Gains: Selective Layer Fine-tuning", v:"KCC 2025", u:"/CV/publication/2025-minimal-tuning"},
+      {t:"Efficiently Lightweight Korean LM with Post-layer Pruning", v:"Journal of KIISE, 2025", u:"/CV/publication/2025-lightweight-korean-lm"},
+      {t:"Depth-Up Scaling을 활용한 언어 모델 증강", v:"KSC 2024", u:"/CV/publication/2024-depth-up-scaling"}
+    ]
+  },
+  bench: {
+    title: "Benchmarking & Reasoning",
+    papers: [
+      {t:"EuraGovExam: A Multilingual Multimodal Benchmark", v:"KDD 2026, Under Review", u:"/CV/publication/2025-euragovexam"},
+      {t:"K-GovExam: 한국 공무원 시험 기반 LLM 평가용 데이터셋", v:"KCC 2025 · Grand Prize", u:"/CV/publication/2025-k-govexam"},
+      {t:"KO-SmallThinker: Reasoning 기반 소형 언어 모델", v:"KCC 2025", u:"/CV/publication/2025-ko-smallthinker"}
+    ]
+  },
+  legal: {
+    title: "Legal & Domain NLP",
+    papers: [
+      {t:"LLM as a Search: 사용자 의도 분석을 통한 지능형 법률 문서 검색", v:"Journal of KIISE, 2025", u:"/CV/publication/2025-llm-legal-search"},
+      {t:"Improving Text-to-SQL via Step-by-Step and Self-Debug", v:"KODB, 2025", u:"/CV/publication/2025-text-to-sql-journal"},
+      {t:"Improving Text-to-SQL via Step-by-Step Learning", v:"KDBC 2024", u:"/CV/publication/2024-text-to-sql-kdbc"},
+      {t:"법률 QA 데이터셋을 이용한 거대 언어 모델 학습", v:"KCC 2024", u:"/CV/publication/2024-legal-qa-llm"}
+    ]
+  },
+  merging: {
+    title: "Model Merging & Composition",
+    papers: [
+      {t:"Latent Merging: Dynamic and Reversible Composition of LLMs", v:"ECML-PKDD 2026, Under Review", u:"/CV/publication/2025-latent-merging"},
+      {t:"The Latent Hivemind: Do LLMs Converge in How They Think?", v:"ECML-PKDD 2026, Under Review", u:"/CV/publication/2026-latent-hivemind"},
+      {t:"서로 다른 언어 모델의 상징적 지식 증류를 이용한 감정 분석 모델", v:"KSC 2023", u:"/CV/publication/2023-symbolic-knowledge-distillation"}
+    ]
+  },
+  multi: {
+    title: "Multilingual & Cross-lingual",
+    papers: [
+      {t:"How Language Directions Align with Token Geometry in Multilingual LLMs", v:"ACL 2026 SRW, Under Review", u:"/CV/publication/2025-multilingual-llm-geometry"},
+      {t:"A Hybrid Approach for Early Prediction of Real-time Streaming Text", v:"IEIE Journal, Under Review", u:"/CV/publication/2026-hybrid-streaming"},
+      {t:"파인튜닝, RAG, 프롬프트 기반 언러닝 방법의 성능 비교 분석", v:"KCC 2024", u:"/CV/publication/2024-finetuning-rag-unlearning"}
+    ]
+  }
+};
+var activeRn = null;
+function toggleRnPapers(key) {
+  var panel = document.getElementById('rn-papers-panel');
+  var nodes = document.querySelectorAll('.rn-node:not(.rn-core)');
+  if (activeRn === key) {
+    panel.classList.remove('open');
+    panel.innerHTML = '';
+    nodes.forEach(function(n){n.classList.remove('active')});
+    activeRn = null;
+    return;
+  }
+  activeRn = key;
+  var d = rnData[key];
+  var html = '<p class="rn-papers-title">' + d.title + '</p><ul>';
+  d.papers.forEach(function(p){
+    html += '<li><a href="' + p.u + '">' + p.t + '</a><br><span class="rn-venue">' + p.v + '</span></li>';
+  });
+  html += '</ul>';
+  panel.innerHTML = html;
+  panel.classList.add('open');
+  nodes.forEach(function(n){n.classList.remove('active')});
+  var keys = ['interp','safety','efficient','bench','legal','merging','multi'];
+  var idx = keys.indexOf(key);
+  if (idx >= 0) nodes[idx].classList.add('active');
+}
+</script>
