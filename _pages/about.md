@@ -10,10 +10,10 @@ redirect_from:
 Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at **Semyung University**, working in the **Data Intelligence Lab** (Advisor: Prof. Suan Lee). My research focuses on understanding the internal mechanisms of large language models — how layers coordinate during pretraining, how semantic concepts are structured in representation space, and how these structures can be made interpretable and controllable. I am currently seeking graduate-level research opportunities in NLP and LLM interpretability.
 
 **Selected Publications:**
-- [Semantic Directions Emerge from Sparse Token Mixtures](/CV/publication/2026-semantic-directions) (arXiv 2026)
-- [Pretraining Builds Cooperation, Not Components](/CV/publication/2025-lie-brackets) (ARR March 2026)
-- [Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes](/CV/publication/2025-latent-sentinel) (arXiv 2025)
-- [EuraGovExam: A Multilingual Multimodal Benchmark](/CV/publication/2025-euragovexam) (KDD 2025, Under Review)
+- [Semantic Directions Emerge from Sparse Token Mixtures](/CV/paper/Semantic_Directions_Emerge_from_Sparse_Token_Mixtures%20(89).pdf) (arXiv 2026)
+- [Pretraining Builds Cooperation, Not Components](/CV/paper/Pretraining%20Builds%20Cooperation.pdf) (ARR March 2026)
+- [Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes](/CV/paper/Latent%20Sentinel%20(2).pdf) (arXiv 2025)
+- [EuraGovExam: A Multilingual Multimodal Benchmark](/CV/paper/EuraGovExam%20(101).pdf) (KDD 2025, Under Review)
 
 ## Research Interests
 
