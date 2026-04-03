@@ -128,12 +128,6 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 <span class="tl-sub">중소기업기술정보진흥원 (2026.01 ~)</span>
 </div>
 
-<div class="tl-entry grant">
-<span class="tl-badge tl-badge-grant">연구과제</span>
-<span class="tl-title">멀티모달 AI 기반 IR 피칭 평가 시스템 "피치스코어" 2차년 — (주)피치스파트너스</span>
-<span class="tl-sub">중소벤처기업부 (2026.01 ~)</span>
-</div>
-
 <div class="tl-year">2025</div>
 
 <div class="tl-entry">
@@ -179,13 +173,18 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 
 <div class="tl-entry grant">
 <span class="tl-badge tl-badge-grant">연구과제</span>
-<span class="tl-title">멀티모달 AI 기반 IR 피칭 평가 시스템 "피치스코어" 1차년 — (주)피치스파트너스</span>
+<span class="tl-title">멀티모달 AI 기반 IR 피칭 평가 시스템 “피치스코어” 1차년 — (주)피치스파트너스</span>
 <span class="tl-sub">중소벤처기업부 (2025.07 ~ 2025.12)</span>
 </div>
 
 <div class="tl-entry">
 <span class="tl-badge tl-badge-venue">KODB</span>
 <span class="tl-title">Improving Text-to-SQL Model Performance via Step-by-Step and Self-Debug Approaches</span>
+</div>
+
+<div class="tl-entry scholarship">
+<span class="tl-badge tl-badge-scholar">장학금</span>
+<span class="tl-title">성적우수 장학금 (3위)</span>
 </div>
 
 <div class="tl-entry scholarship">
@@ -312,11 +311,6 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 <div class="tl-entry scholarship">
 <span class="tl-badge tl-badge-scholar">장학금</span>
 <span class="tl-title">책임지도교수 추천 장학금</span>
-</div>
-
-<div class="tl-entry scholarship">
-<span class="tl-badge tl-badge-scholar">장학금</span>
-<span class="tl-title">설립자 장학금 (인근지역고교)</span>
 </div>
 
 </div>
