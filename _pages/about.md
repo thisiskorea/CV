@@ -178,7 +178,7 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">KODB</span>
+<span class="tl-badge tl-badge-venue">DBR</span>
 <span class="tl-title">Improving Text-to-SQL Model Performance via Step-by-Step and Self-Debug Approaches</span>
 </div>
 
@@ -194,7 +194,7 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 
 <div class="tl-entry">
 <span class="tl-badge tl-badge-venue">KDBC 2025</span>
-<span class="tl-title">Order Within LLMs: Analyzing Task-specific Representation Organization in Latent Spaces</span>
+<span class="tl-title">LLM 내부의 질서: 잠재 공간에서의 태스크별 표현 조직화 분석</span>
 </div>
 
 <div class="tl-entry award">
