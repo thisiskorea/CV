@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-lie-brackets
 date: 2026-03-01
 venue: 'Under Review'
-citation_authors: '<strong>Jaesung Kim</strong>, Suan Lee'
+citation_authors: '<strong>Jaeseong Kim</strong>, Suan Lee'
 paperurl: '/CV/paper/Pretraining Builds Cooperation.pdf'
 excerpt: ''
 ---
