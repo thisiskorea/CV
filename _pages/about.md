@@ -10,10 +10,10 @@ redirect_from:
 Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at **Semyung University**, working in the **Data Intelligence Lab** (Advisor: Prof. Suan Lee). My research centers on understanding and leveraging the latent space of large language models — how semantic concepts are structured, how inter-layer coordination emerges during pretraining, and how these internal structures can be utilized across diverse applications such as interpretability, safety, and content provenance. I am currently seeking graduate-level research opportunities.
 
 **Selected Publications:**
-- [Semantic Directions Emerge from Sparse Token Mixtures](/CV/paper/Semantic_Directions_Emerge_from_Sparse_Token_Mixtures%20(89).pdf) (arXiv 2026)
-- [Pretraining Builds Cooperation, Not Components](/CV/paper/Pretraining%20Builds%20Cooperation.pdf) (ARR March 2026)
-- [Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes](/CV/paper/Latent%20Sentinel%20(2).pdf) (arXiv 2025)
-- [EuraGovExam: A Multilingual Multimodal Benchmark](/CV/paper/EuraGovExam%20(101).pdf) (KDD 2025, Under Review)
+- [Semantic Directions Emerge from Sparse Token Mixtures](/CV/paper/Semantic_Directions_Emerge_from_Sparse_Token_Mixtures%20(89).pdf)
+- [Pretraining Builds Cooperation, Not Components](/CV/paper/Pretraining%20Builds%20Cooperation.pdf)
+- [Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes](/CV/paper/Latent%20Sentinel%20(2).pdf)
+- [EuraGovExam: A Multilingual Multimodal Benchmark](/CV/paper/EuraGovExam%20(101).pdf)
 
 ## Research Interests
 
@@ -64,45 +64,38 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 <div class="tl-year">2026</div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">ECML-PKDD 2026</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">The Latent Hivemind: Do LLMs Converge in How They Think?</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">UAI 2026</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">Same Benchmark, Same Subspace: Task-Selective Convergence in LLM Representations</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">UAI 2026</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">Semantic Directions Emerge from Sparse Token Mixture</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">Journal of KIISE</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">Module Attack: Exploiting Module Swapping to Compromise LLM Alignments</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">ECML-PKDD 2026</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">CipherTune: Training-Free LLM Calibration via Low-Dimensional Error Subspace Correction</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">IEIE Journal</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">A Hybrid Approach Combining Recurrent Structure and Attention Mechanism for Early Prediction of Real-time Streaming Text</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">ARR 2026</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">Pretraining Builds Cooperation, Not Components: Tracking Inter-Layer Coordination via Lie Brackets</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
@@ -131,27 +124,23 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 <div class="tl-year">2025</div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">KDD 2026</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">EuraGovExam: A Multilingual Multimodal Benchmark from Real-World Civil Service Exams</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">KDD 2026</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">ECML-PKDD 2026</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">Latent Merging: Dynamic and Reversible Composition of Large Language Models</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">ACL 2026 SRW</span>
+<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">How Language Directions Align with Token Geometry in Multilingual LLMs</span>
-<span class="tl-sub">Under Review</span>
 </div>
 
 <div class="tl-entry award">
@@ -167,7 +156,7 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">컴퓨팅의 실제 논문지</span>
+<span class="tl-badge tl-badge-venue">정보과학회논문지</span>
 <span class="tl-title">LLM as a Search: 사용자 의도 분석을 통한 지능형 법률 문서 검색</span>
 </div>
 
@@ -240,7 +229,7 @@ Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at *
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">컴퓨팅의 실제 논문지</span>
+<span class="tl-badge tl-badge-venue">정보과학회논문지</span>
 <span class="tl-title">Efficiently Lightweight Korean LM with Post-layer Pruning & Multi-stage Fine-tuning</span>
 </div>
 
