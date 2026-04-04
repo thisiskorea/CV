@@ -1,5 +1,5 @@
 ---
-title: "Order Within LLMs: Analyzing Task-specific Representation Organization in Latent Spaces"
+title: "LLM 내부의 질서: 잠재 공간에서의 태스크별 표현 조직화 분석"
 collection: publications
 category: conferences
 permalink: /publication/2025-order-within-llms

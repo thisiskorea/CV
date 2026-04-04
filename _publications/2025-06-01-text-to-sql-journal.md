@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-text-to-sql-journal
 date: 2025-06-01
-venue: 'Journal of Database Research (KODB)'
+venue: 'DataBase Research (DBR)'
 citation_authors: '<strong>Jaesung Kim</strong>, Suan Lee'
 paperurl: ''
 excerpt: ''
@@ -19,7 +19,7 @@ excerpt: ''
     <span class="arxiv-label">Published</span>
     <span class="arxiv-value">2025</span>
     <span class="arxiv-label">Venue</span>
-    <span class="arxiv-value">Journal<br><span style="font-size:0.88em;color:#888;">Journal of Database Research (KODB)</span></span>
+    <span class="arxiv-value">Journal<br><span style="font-size:0.88em;color:#888;">DataBase Research (DBR)</span></span>
   </div>
   <div class="arxiv-main">
     <div class="arxiv-section-title">Abstract</div>
