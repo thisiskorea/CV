@@ -28,7 +28,7 @@
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{% if author.employerurl %}<a href="{{ author.employerurl }}">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</li>
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true" style="vertical-align:middle"></i>{% if author.employerurl %}<a href="{{ author.employerurl }}">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
@@ -87,6 +87,9 @@
       {% endif %}      
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+      {% endif %}
+      {% if author.huggingface %}
+        <li><a href="{{ author.huggingface }}"><i class="fas fa-fw fa-face-smile icon-pad-right" aria-hidden="true"></i>Hugging Face</a></li>
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
