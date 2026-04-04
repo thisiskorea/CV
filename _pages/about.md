@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm **Jaesung Kim**, a senior undergraduate student in Computer Science at **Semyung University**, working in the **Data Intelligence Lab** (Advisor: Prof. Suan Lee). My research centers on understanding and leveraging the latent space of large language models — how semantic concepts are structured, how inter-layer coordination emerges during pretraining, and how these internal structures can be utilized across diverse applications such as interpretability, safety, and content provenance. I am currently seeking graduate-level research opportunities.
+Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at **Semyung University**, working in the **Data Intelligence Lab** (Advisor: Prof. Suan Lee). My research centers on understanding and leveraging the latent space of large language models — how semantic concepts are structured, how inter-layer coordination emerges during pretraining, and how these internal structures can be utilized across diverse applications such as interpretability, safety, and content provenance. I am currently seeking graduate-level research opportunities.
 
 **Selected Publications:**
 - [Semantic Directions Emerge from Sparse Token Mixtures](/CV/paper/Semantic_Directions_Emerge_from_Sparse_Token_Mixtures%20(89).pdf)
