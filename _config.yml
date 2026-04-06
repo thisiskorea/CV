@@ -13,12 +13,12 @@ title                    : "Jaeseong Kim"
 title_separator          : "-"
 name                     : &name "Jaeseong Kim"
 description              : &description "Academic personal website"
-url                      : https://jeaseongkim.github.io
+url                      : https://thisiskorea.github.io
 baseurl                  : "/cv"
-repository               : "jeaseongkim/cv"
+repository               : "thisiskorea/cv"
 
 author:
-  avatar           : "https://jeaseongkim.github.io/CV/images/profile.png"
+  avatar           : "https://thisiskorea.github.io/CV/images/profile.png"
   name             : "Jaeseong Kim (김재성)"
   pronouns         :
   bio              : "NLP & Sentiment Analysis"
@@ -29,7 +29,7 @@ author:
   email            :
   googlescholar    : "https://scholar.google.com/citations?user=tudM_BYAAAAJ"
   orcid            :
-  github           : "jeaseongkim"
+  github           : "thisiskorea"
   huggingface      : "https://huggingface.co/kikikara"
   linkedin         :
 

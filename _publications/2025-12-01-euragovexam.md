@@ -7,8 +7,8 @@ date: 2025-12-01
 venue: 'Under Review'
 citation_authors: '<strong>Jaeseong Kim</strong>, Chaehwan Lim<sup>†</sup>, Sanghyun Gil<sup>†</sup>, Suan Lee*'
 paperurl: '/CV/paper/EuraGovExam (101).pdf'
-codeurl: 'https://github.com/jeaseongkim/EuraGovExam'
+codeurl: 'https://github.com/thisiskorea/EuraGovExam'
 dataseturl: 'https://huggingface.co/datasets/EuraGovExam/EuraGovExam'
-websiteurl: 'https://jeaseongkim.github.io/EuraGovExam/'
+websiteurl: 'https://thisiskorea.github.io/EuraGovExam/'
 excerpt: ''
 ---
