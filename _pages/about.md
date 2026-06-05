@@ -11,7 +11,6 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 **Selected Publications:**
 - [Semantic Directions Emerge from Sparse Token Mixtures](/CV/paper/Semantic_Directions_Emerge_from_Sparse_Token_Mixtures%20(89).pdf)
-- [Pretraining Builds Cooperation, Not Components](/CV/paper/Pretraining%20Builds%20Cooperation.pdf)
 - [Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes](/CV/paper/Latent%20Sentinel%20(2).pdf)
 - [EuraGovExam: A Multilingual Multimodal Benchmark](/CV/paper/EuraGovExam%20(101).pdf)
 
