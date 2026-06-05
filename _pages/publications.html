@@ -107,7 +107,7 @@ author_profile: true
   <div class="pub-content">
     <p class="pub-title">{{ post.title }}</p>
     <p class="pub-authors">{{ post.citation_authors | default: post.citation | split: ". (" | first | default: "" }}{% if post.award %}<span class="pub-award">🏆 {{ post.award }}</span>{% endif %}</p>
-    <p class="pub-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}{% if post.toptier %}<span class="pub-toptier-badge">★ Top-Tier</span>{% endif %}</p>
+    <p class="pub-venue">{{ post.venue }}{% if post.toptier %}<span class="pub-toptier-badge">★ Top-Tier</span>{% endif %}</p>
     <div class="pub-links">
       {% if post.paperurl and post.paperurl.size > 0 %}<a href="{{ post.paperurl }}"><i class="fa-solid fa-file-lines"></i> Paper</a>{% endif %}
       {% if post.codeurl and post.codeurl.size > 0 %}<a href="{{ post.codeurl }}"><i class="fa-brands fa-github"></i> Code</a>{% endif %}
