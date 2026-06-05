@@ -3,8 +3,8 @@ title: "EuraGovExam: A Multilingual Multimodal Benchmark from Real-World Civil S
 collection: publications
 category: conferences
 permalink: /publication/2025-euragovexam
-date: 2025-12-01
-venue: 'Under Review'
+date: 2026-08-01
+venue: 'ACM SIGKDD (KDD 2026), Datasets & Benchmarks Track'
 citation_authors: '<strong>Jaeseong Kim</strong>, Chaehwan Lim<sup>†</sup>, Sanghyun Gil<sup>†</sup>, Suan Lee*'
 paperurl: '/CV/paper/EuraGovExam (101).pdf'
 codeurl: 'https://github.com/thisiskorea/EuraGovExam'

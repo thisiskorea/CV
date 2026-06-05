@@ -24,8 +24,15 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 ## Education
 
-- **B.S.** in Computer Science, Semyung University (2023 - Present) · GPA: 4.12 / 4.50
+- **B.S.** in Computer Science, Semyung University (Mar. 2023 - Expected Feb. 2027) · GPA: 4.12 / 4.50
 - **Data Intelligence Lab**, Semyung University (2023 - Present)
+  - Advisor: Prof. Suan Lee
+
+## Research Experience
+
+- **Research Intern**, Decision Making Lab, Korea University (Apr. 2026 - Present)
+  - Advisor: Prof. Byung-Jun Lee
+- **Undergraduate Researcher**, Data Intelligence Lab, Semyung University (Mar. 2023 - Present)
   - Advisor: Prof. Suan Lee
 
 ## Timeline
@@ -63,14 +70,37 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 <div class="tl-year">2026</div>
 
+<div class="tl-entry activity">
+<span class="tl-badge tl-badge-activity">연구인턴</span>
+<span class="tl-title">Research Intern — Decision Making Lab, Korea University</span>
+<span class="tl-sub">Advisor: Prof. Byung-Jun Lee · Apr. 2026 ~ Present</span>
+</div>
+
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">Under Review</span>
+<span class="tl-badge tl-badge-venue">UAI 2026</span>
+<span class="tl-title">Same Benchmark, Same Subspace: Task-Selective Convergence in LLM Representations</span>
+</div>
+
+<div class="tl-entry">
+<span class="tl-badge tl-badge-venue">KDD 2026</span>
+<span class="tl-title">EuraGovExam: A Multilingual Multimodal Benchmark from Real-World Civil Service Exams</span>
+<span class="tl-sub">Datasets &amp; Benchmarks Track</span>
+</div>
+
+<div class="tl-entry">
+<span class="tl-badge tl-badge-venue">ECML PKDD 2026</span>
 <span class="tl-title">The Latent Hivemind: Do LLMs Converge in How They Think?</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">Under Review</span>
-<span class="tl-title">Same Benchmark, Same Subspace: Task-Selective Convergence in LLM Representations</span>
+<span class="tl-badge tl-badge-venue">ACL SRW 2026</span>
+<span class="tl-title">How Language Directions Align with Token Geometry in Multilingual LLMs</span>
+</div>
+
+<div class="tl-entry">
+<span class="tl-badge tl-badge-venue">ACL ARR 2026</span>
+<span class="tl-title">Pretraining Builds Cooperation, Not Components: Tracking Inter-Layer Coordination via Lie Brackets</span>
+<span class="tl-sub">Findings</span>
 </div>
 
 <div class="tl-entry">
@@ -85,17 +115,7 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 <div class="tl-entry">
 <span class="tl-badge tl-badge-venue">Under Review</span>
-<span class="tl-title">CipherTune: Training-Free LLM Calibration via Low-Dimensional Error Subspace Correction</span>
-</div>
-
-<div class="tl-entry">
-<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">A Hybrid Approach Combining Recurrent Structure and Attention Mechanism for Early Prediction of Real-time Streaming Text</span>
-</div>
-
-<div class="tl-entry">
-<span class="tl-badge tl-badge-venue">Under Review</span>
-<span class="tl-title">Pretraining Builds Cooperation, Not Components: Tracking Inter-Layer Coordination via Lie Brackets</span>
 </div>
 
 <div class="tl-entry">
@@ -125,22 +145,7 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 <div class="tl-entry">
 <span class="tl-badge tl-badge-venue">Under Review</span>
-<span class="tl-title">EuraGovExam: A Multilingual Multimodal Benchmark from Real-World Civil Service Exams</span>
-</div>
-
-<div class="tl-entry">
-<span class="tl-badge tl-badge-venue">Under Review</span>
 <span class="tl-title">Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes</span>
-</div>
-
-<div class="tl-entry">
-<span class="tl-badge tl-badge-venue">Under Review</span>
-<span class="tl-title">Latent Merging: Dynamic and Reversible Composition of Large Language Models</span>
-</div>
-
-<div class="tl-entry">
-<span class="tl-badge tl-badge-venue">Under Review</span>
-<span class="tl-title">How Language Directions Align with Token Geometry in Multilingual LLMs</span>
 </div>
 
 <div class="tl-entry award">
@@ -190,6 +195,12 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 <span class="tl-badge tl-badge-venue">KCC 2025</span>
 <span class="tl-title">K-GovExam: 한국 공무원 시험 기반 LLM 평가용 데이터셋 구축</span>
 <span class="tl-sub"><span class="tl-badge tl-badge-award">Grand Prize</span></span>
+</div>
+
+<div class="tl-entry award">
+<span class="tl-badge tl-badge-venue">KCC 2025</span>
+<span class="tl-title">한국정보과학회 공헌 (KIISE)</span>
+<span class="tl-sub"><span class="tl-badge tl-badge-award">Special Contribution Award</span></span>
 </div>
 
 <div class="tl-entry">
