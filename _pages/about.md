@@ -29,10 +29,16 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 ## Research Experience
 
-- **Research Intern**, Decision Making Lab, Korea University (Apr. 2026 - Present)
+- **Research Intern (Incoming)**, Multimodal Language Processing Lab (MLP Lab), KAIST (Jul. 2026 - Present)
+  - Advisor: Prof. Kyung-tae Lim
+- **Research Intern**, Decision Making Lab, Korea University (Apr. 2026 - Jun. 2026)
   - Advisor: Prof. Byung-Jun Lee
 - **Undergraduate Researcher**, Data Intelligence Lab, Semyung University (Mar. 2023 - Present)
   - Advisor: Prof. Suan Lee
+
+## Professional Service
+
+- **Reviewer**, Neural Networks (Elsevier), 2026
 
 ## Timeline
 
@@ -72,8 +78,20 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 <div class="tl-entry activity">
 <span class="tl-badge tl-badge-activity">연구인턴</span>
+<span class="tl-title">Research Intern (Incoming) — Multimodal Language Processing Lab (MLP Lab), KAIST</span>
+<span class="tl-sub">Advisor: Prof. Kyung-tae Lim · Jul. 2026 ~ Present</span>
+</div>
+
+<div class="tl-entry activity">
+<span class="tl-badge tl-badge-activity">서비스</span>
+<span class="tl-title">Reviewer — Neural Networks (Elsevier)</span>
+<span class="tl-sub">2026</span>
+</div>
+
+<div class="tl-entry activity">
+<span class="tl-badge tl-badge-activity">연구인턴</span>
 <span class="tl-title">Research Intern — Decision Making Lab, Korea University</span>
-<span class="tl-sub">Advisor: Prof. Byung-Jun Lee · Apr. 2026 ~ Present</span>
+<span class="tl-sub">Advisor: Prof. Byung-Jun Lee · Apr. 2026 ~ Jun. 2026</span>
 </div>
 
 <div class="tl-entry">
