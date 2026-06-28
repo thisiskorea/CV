@@ -11,7 +11,6 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 **Selected Publications:**
 - [Semantic Directions Emerge from Sparse Token Mixtures](/CV/paper/Semantic_Directions_Emerge_from_Sparse_Token_Mixtures%20(89).pdf)
-- [Pretraining Builds Cooperation, Not Components](/CV/paper/Pretraining%20Builds%20Cooperation.pdf)
 - [Latent Sentinel: Real-Time Jailbreak Detection with Layer-wise Probes](/CV/paper/Latent%20Sentinel%20(2).pdf)
 - [EuraGovExam: A Multilingual Multimodal Benchmark](/CV/paper/EuraGovExam%20(101).pdf)
 
@@ -30,10 +29,16 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 ## Research Experience
 
-- **Research Intern**, Decision Making Lab, Korea University (Apr. 2026 - Present)
+- **Research Intern (Incoming)**, Multimodal Language Processing Lab (MLP Lab), KAIST (Jul. 2026 - Present)
+  - Advisor: Prof. Kyung-tae Lim
+- **Research Intern**, Decision Making Lab, Korea University (Apr. 2026 - Jun. 2026)
   - Advisor: Prof. Byung-Jun Lee
 - **Undergraduate Researcher**, Data Intelligence Lab, Semyung University (Mar. 2023 - Present)
   - Advisor: Prof. Suan Lee
+
+## Professional Service
+
+- **Reviewer**, Neural Networks (Elsevier), 2026
 
 ## Timeline
 
@@ -50,6 +55,7 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 .tl-entry.activity::before{background:#8e44ad;box-shadow:0 0 0 1px #8e44ad}
 .tl-badge{display:inline-block;font-size:0.7em;font-weight:700;padding:1px 7px;border-radius:3px;margin-right:6px;vertical-align:middle;letter-spacing:0.3px}
 .tl-badge-venue{background:#333;color:#fff}
+.tl-badge-top{background:#c0392b;color:#fff}
 .tl-badge-award{background:#c0392b;color:#fff}
 .tl-badge-grant{background:#2980b9;color:#fff}
 .tl-badge-scholar{background:#27ae60;color:#fff}
@@ -72,23 +78,35 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 
 <div class="tl-entry activity">
 <span class="tl-badge tl-badge-activity">연구인턴</span>
+<span class="tl-title">Research Intern (Incoming) — Multimodal Language Processing Lab (MLP Lab), KAIST</span>
+<span class="tl-sub">Advisor: Prof. Kyung-tae Lim · Jul. 2026 ~ Present</span>
+</div>
+
+<div class="tl-entry activity">
+<span class="tl-badge tl-badge-activity">서비스</span>
+<span class="tl-title">Reviewer — Neural Networks (Elsevier)</span>
+<span class="tl-sub">2026</span>
+</div>
+
+<div class="tl-entry activity">
+<span class="tl-badge tl-badge-activity">연구인턴</span>
 <span class="tl-title">Research Intern — Decision Making Lab, Korea University</span>
-<span class="tl-sub">Advisor: Prof. Byung-Jun Lee · Apr. 2026 ~ Present</span>
+<span class="tl-sub">Advisor: Prof. Byung-Jun Lee · Apr. 2026 ~ Jun. 2026</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">UAI 2026</span>
+<span class="tl-badge tl-badge-top">★ UAI 2026</span>
 <span class="tl-title">Same Benchmark, Same Subspace: Task-Selective Convergence in LLM Representations</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">KDD 2026</span>
+<span class="tl-badge tl-badge-top">★ KDD 2026</span>
 <span class="tl-title">EuraGovExam: A Multilingual Multimodal Benchmark from Real-World Civil Service Exams</span>
 <span class="tl-sub">Datasets &amp; Benchmarks Track</span>
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">ECML PKDD 2026</span>
+<span class="tl-badge tl-badge-top">★ ECML PKDD 2026</span>
 <span class="tl-title">The Latent Hivemind: Do LLMs Converge in How They Think?</span>
 </div>
 
@@ -98,7 +116,7 @@ Hi! I'm **Jaeseong Kim**, a senior undergraduate student in Computer Science at 
 </div>
 
 <div class="tl-entry">
-<span class="tl-badge tl-badge-venue">ACL ARR 2026</span>
+<span class="tl-badge tl-badge-top">★ ACL ARR 2026</span>
 <span class="tl-title">Pretraining Builds Cooperation, Not Components: Tracking Inter-Layer Coordination via Lie Brackets</span>
 <span class="tl-sub">Findings</span>
 </div>

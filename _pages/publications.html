@@ -15,6 +15,26 @@ author_profile: true
   border-bottom: 1px solid var(--border-color, #e1e4e8);
   gap: 20px;
 }
+.pub-item.pub-toptier {
+  border-left: 3px solid #c0392b;
+  padding-left: 16px;
+  background: linear-gradient(90deg, rgba(192, 57, 43, 0.06), transparent 60%);
+}
+.pub-toptier-badge {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 700;
+  color: #fff;
+  background: #c0392b;
+  padding: 2px 9px;
+  border-radius: 3px;
+  margin-left: 8px;
+  vertical-align: middle;
+  letter-spacing: 0.3px;
+}
+.pub-toptier .pub-title {
+  color: #c0392b;
+}
 .pub-content {
   flex: 1;
 }
@@ -83,11 +103,11 @@ author_profile: true
 <div class="pub-year-divider">{{ year.name }}</div>
 
 {% for post in year.items %}
-<div class="pub-item">
+<div class="pub-item{% if post.toptier %} pub-toptier{% endif %}">
   <div class="pub-content">
     <p class="pub-title">{{ post.title }}</p>
     <p class="pub-authors">{{ post.citation_authors | default: post.citation | split: ". (" | first | default: "" }}{% if post.award %}<span class="pub-award">🏆 {{ post.award }}</span>{% endif %}</p>
-    <p class="pub-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
+    <p class="pub-venue">{{ post.venue }}{% if post.toptier %}<span class="pub-toptier-badge">★ Top-Tier</span>{% endif %}</p>
     <div class="pub-links">
       {% if post.paperurl and post.paperurl.size > 0 %}<a href="{{ post.paperurl }}"><i class="fa-solid fa-file-lines"></i> Paper</a>{% endif %}
       {% if post.codeurl and post.codeurl.size > 0 %}<a href="{{ post.codeurl }}"><i class="fa-brands fa-github"></i> Code</a>{% endif %}

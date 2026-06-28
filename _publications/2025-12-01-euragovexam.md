@@ -5,6 +5,7 @@ category: conferences
 permalink: /publication/2025-euragovexam
 date: 2026-08-01
 venue: 'ACM SIGKDD (KDD 2026), Datasets & Benchmarks Track'
+toptier: true
 citation_authors: '<strong>Jaeseong Kim</strong>, Chaehwan Lim<sup>†</sup>, Sanghyun Gil<sup>†</sup>, Suan Lee*'
 paperurl: '/CV/paper/EuraGovExam (101).pdf'
 codeurl: 'https://github.com/thisiskorea/EuraGovExam'
